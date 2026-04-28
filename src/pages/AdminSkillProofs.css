@@ -1,0 +1,99 @@
+/* 🌈 PAGE */
+.proofs-container {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* TITLE */
+.proofs-title {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+/* SEARCH */
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.search-box input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #ff7e5f;
+  color: white;
+  cursor: pointer;
+}
+
+/* GRID */
+.proofs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.proof-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.proof-card:hover {
+  transform: scale(1.05);
+}
+
+.proof-card h2 {
+  color: #6c63ff;
+}
+
+.proof-card p {
+  color: #555;
+}
+
+.email {
+  font-size: 13px;
+  color: #888;
+}
+
+/* LINK */
+.proof-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2575fc;
+}
+
+/* PAGINATION */
+.pagination {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.pagination button {
+  padding: 8px 15px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 10px;
+  background: #6c63ff;
+  color: white;
+  cursor: pointer;
+}
+
+/* NO DATA */
+.no-data {
+  text-align: center;
+}

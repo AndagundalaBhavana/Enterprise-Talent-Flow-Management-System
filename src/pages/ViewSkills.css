@@ -1,0 +1,33 @@
+.view-proofs-page {
+  padding: 50px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #d4fc79, #96e6a1);
+}
+
+.view-proofs-page h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.proofs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.proof-card {
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  background: white;
+  transition: 0.3s;
+}
+
+.proof-card:hover {
+  transform: scale(1.05);
+}
+
+.no-data {
+  grid-column: span 3;
+  text-align: center;
+}

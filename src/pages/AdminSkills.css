@@ -1,0 +1,60 @@
+/* 🌈 PAGE */
+.skills-container {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(135deg, #d4fc79, #96e6a1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🔥 TITLE */
+.skills-title {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* 📦 GRID */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* 🎴 CARD */
+.skill-card {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: 0.3s;
+  text-align: center;
+}
+
+/* ✨ HOVER */
+.skill-card:hover {
+  transform: translateY(-5px) scale(1.03);
+}
+
+/* TEXT */
+.skill-card h2 {
+  color: #4facfe;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  color: #555;
+}
+
+.email {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #888;
+}
+
+/* 🚫 NO DATA */
+.no-data {
+  text-align: center;
+  font-size: 18px;
+  color: #444;
+}

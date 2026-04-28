@@ -1,0 +1,77 @@
+.proofs-container {
+  padding: 40px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* 🔍 Search */
+.search-box {
+  margin-bottom: 25px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background: #ff7e5f;
+  color: white;
+  cursor: pointer;
+}
+
+/* 🧾 Grid */
+.proofs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* 🎴 Card */
+.proof-card {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.proof-card:hover {
+  transform: scale(1.05);
+}
+
+.proof-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2575fc;
+  font-weight: bold;
+}
+
+/* 🔁 Pagination */
+.pagination {
+  margin-top: 30px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 8px;
+  background: #43cea2;
+  color: white;
+  cursor: pointer;
+}

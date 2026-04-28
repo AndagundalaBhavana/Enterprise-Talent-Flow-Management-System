@@ -1,0 +1,59 @@
+/* 🌈 BACKGROUND */
+.admin-container {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🔥 TITLE */
+.admin-title {
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+
+/* 📦 GRID */
+.admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+/* 🎴 CARD */
+.admin-card {
+  padding: 30px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* ✨ HOVER */
+.admin-card:hover {
+  transform: scale(1.05);
+}
+
+/* 🎨 COLORS */
+.apps {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.jobs {
+  background: linear-gradient(135deg, #f7971e, #ffd200);
+}
+
+.skills {
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+}
+
+.proofs {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+}
+
+.users {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+}

@@ -1,0 +1,61 @@
+.pm-dashboard {
+  padding: 50px;
+  min-height: 100vh;
+}
+
+.pm-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+/* Grid */
+.pm-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+}
+
+/* Cards */
+.pm-card {
+  padding: 40px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.pm-card:hover {
+  transform: translateY(-10px) scale(1.03);
+}
+
+/* Individual Colors */
+.pm-card.post {
+  background: linear-gradient(135deg, #36d1dc, #5b86e5);
+}
+
+.pm-card.view {
+  background: linear-gradient(135deg, #11998e, #38ef7d);
+}
+
+.pm-card.update {
+  background: linear-gradient(135deg, #f7971e, #ffd200);
+}
+
+.pm-card.delete {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+}
+
+/* Text */
+.pm-card h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.pm-card p {
+  font-size: 16px;
+}

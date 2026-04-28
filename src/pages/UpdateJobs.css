@@ -1,0 +1,29 @@
+.update-jobs-page {
+  padding: 50px;
+}
+
+.title {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+
+/* Grid */
+.jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Card */
+.job-card {
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.job-card:hover {
+  transform: scale(1.05);
+}

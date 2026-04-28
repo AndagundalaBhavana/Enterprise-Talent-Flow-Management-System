@@ -1,0 +1,56 @@
+.view-proofs-page {
+  padding: 50px;
+  min-height: 100vh;
+}
+
+/* Title */
+.proofs-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+/* Grid */
+.proofs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Card */
+.proof-card {
+  padding: 25px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #ffffff, #f0f4ff);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+/* Hover */
+.proof-card:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+/* Description */
+.desc {
+  margin: 15px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* No data */
+.no-data {
+  text-align: center;
+  font-size: 18px;
+  color: gray;
+}

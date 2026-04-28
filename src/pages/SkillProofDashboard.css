@@ -1,0 +1,56 @@
+.proof-dashboard {
+  min-height: 100vh;
+  padding: 50px;
+  background: linear-gradient(135deg, #cfd9df, #e2ebf0);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+/* Grid */
+.proof-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+/* Card */
+.proof-card {
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: #000;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+/* Hover */
+.proof-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+
+/* Individual colors */
+.proof-card.add {
+  background: #d4fc79;
+}
+
+.proof-card.view {
+  background: #84fab0;
+}
+
+.proof-card.update {
+  background: #a6c1ee;
+}
+
+.proof-card.delete {
+  background: #fda085;
+}

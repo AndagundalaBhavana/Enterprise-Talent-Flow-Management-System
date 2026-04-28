@@ -1,0 +1,23 @@
+.add-proof-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+}
+
+/* Card */
+.proof-card {
+  width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Title */
+.proof-card h1 {
+  margin-bottom: 20px;
+  color: #333;
+}

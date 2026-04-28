@@ -1,0 +1,60 @@
+/* 🌈 PAGE BACKGROUND */
+/* 🌈 PAGE BACKGROUND */
+.page-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  padding: 30px;
+  color: white;
+}
+
+/* 🏷️ TITLE */
+.page-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* 📦 CARD STYLE */
+.ant-card {
+  border-radius: 15px !important;
+  background: white !important;
+  color: black !important;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2) !important;
+  transition: 0.3s !important;
+}
+
+/* ✨ HOVER EFFECT */
+.ant-card:hover {
+  transform: scale(1.02);
+}
+
+/* 🎯 STATUS COLORS */
+.status-approved {
+  color: green;
+  font-weight: bold;
+}
+
+.status-rejected {
+  color: red;
+  font-weight: bold;
+}
+
+.status-applied {
+  color: orange;
+  font-weight: bold;
+}
+
+/* 🔘 BUTTONS */
+.btn-group {
+  margin-top: 10px;
+}
+
+.btn-approve {
+  background: #28c76f !important;
+  border: none !important;
+}
+
+.btn-reject {
+  background: #ff4d4f !important;
+  border: none !important;
+}

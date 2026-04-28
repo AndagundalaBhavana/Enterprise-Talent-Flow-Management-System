@@ -1,0 +1,21 @@
+.add-skill-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #cceeff, #e6f7ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-skill-card {
+  width: 400px;
+  padding: 30px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.add-skill-card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}

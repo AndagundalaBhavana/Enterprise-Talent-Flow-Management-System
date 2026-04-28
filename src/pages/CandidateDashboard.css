@@ -1,0 +1,54 @@
+/* FULL PAGE BACKGROUND */
+.dashboard-page {
+  padding: 50px;
+  min-height: 100vh;
+  background: #33b7f4; /* soft sky blue */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* TITLE */
+.dashboard-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #04377f; /* deep blue */
+  font-weight: 700;
+}
+
+/* GRID LAYOUT */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* CARD DESIGN */
+.dashboard-card {
+  background: #ffffff; /* WHITE CARDS */
+  padding: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* HOVER EFFECT */
+.dashboard-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* CARD TEXT */
+.dashboard-card h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #1f1f1f;
+}
+
+.dashboard-card p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
