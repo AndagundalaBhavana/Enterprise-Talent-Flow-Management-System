@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Enterprise Talent Flow Management System - Frontend
 
 A comprehensive React-based frontend application for managing talent acquisition, skills verification, and job matching in an enterprise environment.
@@ -196,6 +197,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 
 
 
